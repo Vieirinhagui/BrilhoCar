@@ -1,10 +1,142 @@
-*{
-    border: 0;
-    margin: 0;
-    padding: 0;
-    box-shadow: none;
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+}
+img {
+  max-width: 100vw;
+}
+body {
+  background-color: #292929;
+  overflow-x: hidden;
+}
+#home,
+#examples,
+#about-us{
+  width: 100vw;
+  height: 100vh;
 }
 
-body{
-    background-color: #292929;
+#about-us{
+    background-color: #353535;
+}
+h1 {
+  text-align: center;
+  font-size: 48px;
+  padding-top: 15px;
+  color: white;
+}
+.navbar {
+  width: 100vw;
+  height: 20vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#logo {
+  width: 20vw;
+  height: 20vh;
+  min-height: 50px;
+  min-width: 50px;
+}
+.bnt-navbar {
+  margin-right: 5vw;
+}
+.bnt-nav {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  margin: 0 15px;
+  border-bottom: 2px solid blue;
+}
+.bnt-nav:hover {
+  color: lightgrey;
+  border-bottom: 2px solid orange;
+}
+#img-home,
+.img-home {
+  width: 100vw;
+  height: 80vh;
+}
+.gallery {
+  width: 100vw;
+  height: 93vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.img {
+  width: 25vw;
+  height: 35vh;
+  margin: 15px 0;
+}
+.shadow{
+  box-shadow: -2px 2px 5px blue;
+}
+.about-us {
+    width: 100vw;
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+.about-img{
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-txt{
+    width: 45vw;
+}
+.about-txt p{
+    width: 30vw;
+    text-align: justify;
+    color: white;
+}
+.img-about{
+    width: 25vw;
+    height: 35vh;
+    margin: 15px 0;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    height: 20vh;
+    color: white;
+    margin-bottom: 15px;
+}
+footer p{
+    border-bottom: 1px solid blue;
+}
+
+.whats{
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    width: 40px;
+    height: 40px;
+}
+#img-whats{
+    width: 40px;
+    height: 40px;
+}
+.insta{
+  position: fixed;
+  bottom: 60px;
+  left: 15px;
+  width: 40px;
+  height: 40px;
+}
+#img-insta{
+  width: 40px;
+  height: 40px;
 }
