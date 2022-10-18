@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="152" height="151.99" viewBox="62.985 0 436.03 436">
+  <defs>
+    <style>
+      .cls-1, .cls-3, .cls-4, .cls-6 {
+        font-size: 250px;
+      }
+
+      .cls-1, .cls-4 {
+        font-family: BatuphatScript-Extrude, "Batuphat Script";
+      }
+
+      .cls-2 {
+        font-size: 125px;
+      }
+
+      .cls-3 {
+        fill: #0012ff;
+      }
+
+      .cls-3, .cls-6 {
+        font-family: "Batuphat Script";
+      }
+
+      .cls-4 {
+        fill: #050505;
+      }
+
+      .cls-5 {
+        font-size: 200px;
+      }
+
+      .cls-6 {
+        fill: #ff7200;
+      }
+    </style>
+  </defs>
+  <image id="Plano_de_Fundo" data-name="Plano de Fundo" width="562" height="436" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMQAAACYCAYAAAC76kbnAAABiklEQVR4nO3TgQnAMAzAsHT//5xBYcxHSCcYfHZ3B7geGeBnCAhDQBgCwhAQhoAwBIQhIAwBYQgIQ0AYAsIQEIaAMASEISAMAWEICENAGALCEBCGgDAEhCEgDAFhCAhDQBgCwhAQhoAwBIQhIAwBYQgIQ0AYAsIQEIaAMASEISAMAWEICENAGALCEBCGgDAEhCEgDAFhCAhDQBgCwhAQhoAwBIQhIAwBYQgIQ0AYAsIQEIaAMASEISAMAWEICENAGALCEBCGgDAEhCEgDAFhCAhDQBgCwhAQhoAwBIQhIAwBYQgIQ0AYAsIQEIaAMASEISAMAWEICENAGALCEBCGgDAEhCEgDAFhCAhDQBgCwhAQhoAwBIQhIAwBYQgIQ0AYAsIQEIaAMASEISAMAWEICENAGALCEBCGgDAEhCEgDAFhCAhDQBgCwhAQhoAwBIQhIAwBYQgIQ0AYAsIQEIaAMASEISAMAWEICENAGALCEBCGgDAEhCEgDAFhCAhDQBgCwhAQhoAwBHxm5gUbKgUsb0+82QAAAABJRU5ErkJggg=="/>
+  <text id="Brilho" class="cls-1" transform="matrix(0.699, -0.093, 0.093, 0.699, 115.992, 237.948)">B<tspan class="cls-2">rilho</tspan></text>
+  <text id="Brilho-2" data-name="Brilho" class="cls-3" transform="matrix(0.699, -0.093, 0.093, 0.699, 112.294, 236.257)">B<tspan class="cls-2">rilho</tspan></text>
+  <text id="Car" class="cls-4" transform="translate(179.313 366.358) rotate(-8.674) scale(0.705)">C<tspan class="cls-5">ar</tspan></text>
+  <text id="Car-2" data-name="Car" class="cls-6" transform="translate(177.897 367.064) rotate(-8.674) scale(0.705)">C<tspan class="cls-5">ar</tspan></text>
+</svg>

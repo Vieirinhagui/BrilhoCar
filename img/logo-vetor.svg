@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="195.913" height="151.99" viewBox="0 0 562 436">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        font-size: 250px;
+        font-family: "Batuphat Script";
+      }
+
+      .cls-1 {
+        fill: #0012ff;
+      }
+
+      .cls-2 {
+        font-size: 125px;
+      }
+
+      .cls-3 {
+        fill: #ff7200;
+      }
+
+      .cls-4 {
+        font-size: 200px;
+      }
+    </style>
+  </defs>
+  <image id="Plano_de_Fundo" data-name="Plano de Fundo" width="562" height="436" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMQAAACYCAYAAAC76kbnAAABiklEQVR4nO3TgQnAMAzAsHT//5xBYcxHSCcYfHZ3B7geGeBnCAhDQBgCwhAQhoAwBIQhIAwBYQgIQ0AYAsIQEIaAMASEISAMAWEICENAGALCEBCGgDAEhCEgDAFhCAhDQBgCwhAQhoAwBIQhIAwBYQgIQ0AYAsIQEIaAMASEISAMAWEICENAGALCEBCGgDAEhCEgDAFhCAhDQBgCwhAQhoAwBIQhIAwBYQgIQ0AYAsIQEIaAMASEISAMAWEICENAGALCEBCGgDAEhCEgDAFhCAhDQBgCwhAQhoAwBIQhIAwBYQgIQ0AYAsIQEIaAMASEISAMAWEICENAGALCEBCGgDAEhCEgDAFhCAhDQBgCwhAQhoAwBIQhIAwBYQgIQ0AYAsIQEIaAMASEISAMAWEICENAGALCEBCGgDAEhCEgDAFhCAhDQBgCwhAQhoAwBIQhIAwBYQgIQ0AYAsIQEIaAMASEISAMAWEICENAGALCEBCGgDAEhCEgDAFhCAhDQBgCwhAQhoAwBHxm5gUbKgUsb0+82QAAAABJRU5ErkJggg=="/>
+  <text id="Brilho" class="cls-1" transform="translate(48.433 231.047) rotate(-7.574)">B<tspan class="cls-2">rilho</tspan></text>
+  <text id="Car" class="cls-3" transform="translate(141.43 416.472) rotate(-8.674)">C<tspan class="cls-4">ar</tspan></text>
+</svg>
