@@ -54,7 +54,12 @@ body{
   border-bottom: 2px solid orange;
 }
 /* FIM ESTILOS NAVBAR */
+/* ESTILO HOME*/
+.home{
+  width: 100vw;
 
+}
+/* FIM ESTILO HOME*/
 /* ESTILOS ABA EXEMPLOS */
 .gallery{
   display: flex;
@@ -84,7 +89,9 @@ body{
   font-size: 45px;
   margin: 5vh 0 7vh 0;
 }
-
+#about-us{
+  height: 300vh;
+}
 .about-us{
   display: flex;
   justify-content: space-evenly;
@@ -101,29 +108,35 @@ body{
   margin-bottom: 10vh;
 }
 
-.about-txt p{
+.about-txt{
   width:35vw;
   min-width: 300px;
   height: 35vh;
   min-height: 100px;
-  margin-bottom: 10vh;
   text-align: justify;
+}
+.txt-about{
+  margin: 0 0 10vh 0;
+}
+.txt-about p{
+  color: #d9c9c9;
 }
 /* FIM ESTILOS ABA SOBRE NÓS */
 
 /* ESTILOS RODAPÉ */
 
-footer{
-  width: 100vw;
-  height: 20vh;
-  min-height: 150px;
+#footer{
+  position: relative;
+  bottom: 0;
   background-color: black;
-  margin-top: 15vh;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: end;
+  width: 100vw;
+  height: 25vh;
+  min-height: 150px;
 }
-footer p{
+#footer p{
   color: white;
-  margin-bottom: 2vh;
+  margin-bottom: 15px;
 }
