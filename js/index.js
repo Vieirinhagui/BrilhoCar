@@ -9,16 +9,16 @@ $(document).ready(function(){
     if(windowwidth<=450 && windowwidth>=390){
         $("#img-menu").css("display","flex");
         $(".bnt-navbar").css("display","none");
+        $("#img-menu").click(function(){
+            $("#img-menu").css("display","none");
+            $(".bnt-navbar").css("display","block");
+            $(".bnt-navbar").addClass("hide");
+        });
+        $("a").click(function(){
+            $("#img-menu").css("display","flex");
+            $(".bnt-navbar").css("display","none");
+        });
     }
-    $("#img-menu").click(function(){
-        $("#img-menu").css("display","none");
-        $(".bnt-navbar").css("display","block");
-        $(".bnt-navbar").addClass("hide");
-    });
-    $("a").click(function(){
-        $("#img-menu").css("display","flex");
-        $(".bnt-navbar").css("display","none");
-    });
 });
 
 $(document).ready(function(){
