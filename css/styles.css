@@ -8,7 +8,10 @@
   font-family: myFirstFont;
   src: url(../font/Batuphat-Script.otf);
 }
-
+@font-face {
+  font-family: myFirstFont;
+  src: url(../font\Batuphat-Script-Extrude.otf);
+}
 img {
   max-width: 100vw;
 }
