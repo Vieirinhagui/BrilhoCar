@@ -1,204 +1,129 @@
-* {
-  border: 0;
+*{
   margin: 0;
-  padding: 0;
-  box-shadow: none;
+  border:0;
+  padding:0;
+  box-shadow: 0;
 }
-@font-face {
-  font-family: myFirstFont;
-  src: url(../font/Batuphat-Script.otf);
-}
-@font-face {
-  font-family: myFirstFont;
-  src: url(../font\Batuphat-Script-Extrude.otf);
-}
-img {
-  max-width: 100vw;
-}
-body {
-  background-color: #292929;
+
+body{
+  background-color: #353535;
   overflow-x: hidden;
 }
-#home,
-#examples,
-#about-us{
-  width: 100vw;
-  height: 100vh;
-}
-#examples{
-  margin-top: 150px;
-}
-#about-us{
-    background-color: #353535;
-}
-h1 {
-  text-align: center;
-  font-size: 70px;
-  padding-top: 10px;
-  color: white;
-  font-family: myFirstFont;
-}
-.navbar {
-  width: 100vw;
-  height: 18vh;
-  background-color: black;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-#logo {
-  width: 20vw;
-  height: 20vh;
-  min-height: 50px;
-  min-width: 50px;
-}
-.navbar-bnt {
-  margin-right: 5vw;
-
-}
-.bnt-navbar.hide{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-  z-index: 2;
-  width: 70%;
-  height: 110vh;
-  background-color: #353535;
-  margin: 750px -10px 0 0;
-}
-.bnt-navbar.hide .navbar-bnt{
-  font-size: 15px;
-  margin-top: 50px;
-  padding: 30px;
-  height: 40vh;
-  text-align: center;
-}
-.bnt-navbar.hide .navbar-bnt a{
-  margin-top: 25px;
-}
-#img-menu{
-  display: none;
-  width: 40px;
-}
-.bnt-nav {
-  color: white;
-  font-size: 34px;
-  text-decoration: none;
-  margin: 0 15px;
-  border-bottom: 2px solid blue;
-  font-family: myFirstFont;
-}
-
-.bnt-nav:hover {
-  color: lightgrey;
-  border-bottom: 2px solid orange;
-}
-#img-home,
-.img-home {
-  width: 100vw;
-  height: 100vh;
-}
-.gallery {
-  width: 100vw;
-  height: 93vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-.img {
-  width: 25vw;
-  height: 35vh;
-  margin: 0 0 15px 0;
-}
-.shadow{
-  box-shadow: -2px 2px 5px blue;
-}
-.about-us {
-    width: 100vw;
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-.about-img{
-    width: 45vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.about-txt{
-    width: 45vw;
-}
-.about-txt p{
-    width: 30vw;
-    text-align: justify;
-    color: white;
-}
-.img-about{
-    width: 25vw;
-    height: 35vh;
-    margin: 15px 0;
-}
-
-footer{
-    display: flex;
-    justify-content: center;
-    align-items:flex-end;
-    height: 18vh;
-    color: white;
-    margin-bottom: 15px;
-}
-footer p{
-    border-bottom: 1px solid blue;
-}
-
-.whats{
-    position: fixed;
-    bottom: 15px;
-    left: 15px;
-    width: 40px;
-    height: 40px;
-}
-#img-whats{
-    width: 40px;
-    height: 40px;
-}
-.insta{
+.scroll,.whats,.insta{
   position: fixed;
-  bottom: 60px;
-  left: 15px;
-  width: 40px;
-  height: 40px;
-}
-#img-insta{
-  width: 40px;
-  height: 40px;
-}
-
-.whats{
-  position: fixed;
+  z-index: 10;
   bottom: 15px;
-  left: 15px;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
 }
-#img-whats{
-  width: 40px;
-  height: 40px;
+.whats,.insta{
+  left: 15px;
 }
 .scroll{
-position: fixed;
-bottom: 15px;
-right: 15px;
-width: 40px;
-height: 40px;
+  right: 15px;
 }
-#img-scroll{
-width: 40px;
-height: 40px;
+.insta{
+  bottom:70px;
+}
+/* ESTILOS NAVBAR */
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  width: 100vw;
+  height: 18vh;
+  min-height: 100px;
+}
+.logo-navbar,#logo{
+  width: 150px;
+  height: 150px;
+  margin-left: 3vw;
+}
+
+.bnt-navbar a{
+  margin: 0 10px 0 10px;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid blue;
+}
+.bnt-navbar a:hover{
+  color: #d9d9d9;
+  border-bottom: 2px solid orange;
+}
+/* FIM ESTILOS NAVBAR */
+
+/* ESTILOS ABA EXEMPLOS */
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.img{
+  width:30vw;
+  min-width: 300px;
+  height: 40vh;
+  min-height: 100px;
+  margin-bottom: 5vh;
+  box-shadow: 2px 2px 5px blue;
+}
+
+#examples h1{
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  margin: 5vh 0 5vh 0;
+}
+/* FIM ESTILOS ABA EXEMPLOS */
+/* ESTILOS ABA SOBRE NÓS */
+#about-us h1{
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  margin: 5vh 0 7vh 0;
+}
+
+.about-us{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+  
+}
+
+.img-about{  
+  width:25vw;
+  min-width: 300px;
+  height: 35vh;
+  min-height: 100px;
+  margin-bottom: 10vh;
+}
+
+.about-txt p{
+  width:35vw;
+  min-width: 300px;
+  height: 35vh;
+  min-height: 100px;
+  margin-bottom: 10vh;
+  text-align: justify;
+}
+/* FIM ESTILOS ABA SOBRE NÓS */
+
+/* ESTILOS RODAPÉ */
+
+footer{
+  width: 100vw;
+  height: 20vh;
+  min-height: 150px;
+  background-color: black;
+  margin-top: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+footer p{
+  color: white;
+  margin-bottom: 2vh;
 }

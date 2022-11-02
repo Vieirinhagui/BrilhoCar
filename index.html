@@ -6,73 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BrilhoCar</title>
     <link rel="stylesheet" href="css\styles.css" />
-    <link rel="fontstyle" href="font\Batuphat Script Extrude.otf">
+    <link rel="fontstyle" href="font\Batuphat-Script-Extrude.otf" />
   </head>
 
   <body>
-    <div class="scroll">
-      <img src="img\scrollup.png" id="img-scroll" alt="" />
-    </div>
-    <div class="whats">
-      <a
-        href="https://wa.me/5561992918655?text=Olá,%20gostaria%20de%20um%20orçamento"
-        ><img src="img\whatsapp.png" id="img-whats"
-      /></a>
-    </div>
-    <div class="insta">
-      <a href="https://www.instagram.com/brilhocarpolimentos_/"
-        ><img src="img\instagram.png" id="img-insta"
-      /></a>
-    </div>
-    <section id="home">
-      <div class="navbar">
-        <div class="logo-nav">
-          <img src="img\logo-illustrator.svg" id="logo" />
-        </div>
-        <div>
-          <img src="img\menu.png" id="img-menu" />
-        </div>
-        <div class="bnt-navbar">
-          <div class="navbar-bnt">
-            <a href="#home" class="bnt-nav">Home</a>
-
-            <a href="#examples" class="bnt-nav">Exemplos</a>
-
-            <a href="#" class="bnt-nav">Galeria</a>
-
-            <a href="#about-us" class="bnt-nav">Sobre Nós</a>
+    <!-- HOME PAGE -->
+    <section id="homepage">
+      <div class="homepage">
+        <div class="navbar">
+          <div class="logo-navbar">
+            <img src="img\logo-illustrator.svg" id="logo" />
+          </div>
+          <div class="bnt-navbar">
+            <a href="#homepage">Home</a>
+            <a href="#examples">Exemplos</a>
+            <a href="#about-us">Sobre Nós</a>
+            <a href="#">Localização</a>
+            <a href="#">Galeria</a>
           </div>
         </div>
-      </div>
-
-      <div id="img-home">
-        <img src="img\img-home.jpg" class="img-home" alt="" />
+        <div class="home">
+          <img src="img\img-home.jpg" />
+        </div>
       </div>
     </section>
-
+    <!-- FINAL HOME PAGE -->
+    <!-- EXEMPLOS -->
     <section id="examples">
       <h1>Exemplos</h1>
 
       <div class="gallery">
-        <div class="img"><img src="img\img2.webp" class="img shadow" /></div>
-        <div class="img"><img src="img\img2.webp" class="img shadow" /></div>
-        <div class="img"><img src="img\img2.webp" class="img shadow" /></div>
-        <div class="img"><img src="img\img2.webp" class="img shadow" /></div>
-        <div class="img"><img src="img\img2.webp" class="img shadow" /></div>
-        <div class="img"><img src="img\img2.webp" class="img shadow" /></div>
+        <div class="img"><img src="img\img-exemplo.jpg" class="img" /></div>
+        <div class="img"><img src="img\img-exemplo.jpg" class="img" /></div>
+        <div class="img"><img src="img\img-exemplo.jpg" class="img" /></div>
+        <div class="img"><img src="img\img-exemplo.jpg" class="img" /></div>
+        <div class="img"><img src="img\img-exemplo.jpg" class="img" /></div>
+        <div class="img"><img src="img\img-exemplo.jpg" class="img" /></div>
       </div>
     </section>
-
+    <!-- FINAL EXEMPLOS -->
+    <!-- SOBRE NOS -->
     <section id="about-us">
       <h1>Sobre Nós</h1>
 
       <div class="about-us">
         <div class="about-img">
           <div class="img-about">
-            <img src="img\about-us.jpg" class="img-about" />
+            <img src="img\img-about-us.jpg" class="img-about" />
           </div>
           <div class="img-about">
-            <img src="img\about-us.jpg" class="img-about" />
+            <img src="img\img-about-us.jpg" class="img-about" />
           </div>
         </div>
 
@@ -111,11 +94,31 @@
         </div>
       </div>
     </section>
-
+    <!-- FINAL SOBRE NOS -->
+    <!-- RODAPÉ -->
     <footer>
       <p>© CopyRight - By GVO</p>
     </footer>
+    <!-- FINAL RODAPÉ -->
+    <!-- BOTÕES FLUTUANTES -->
+    <div class="scroll">
+      <img src="img\scrollup.png" class="scroll" id="img-scroll" alt="" />
+    </div>
+    <div class="whats">
+      <a
+        href="https://wa.me/5561992918655?text=Olá,%20gostaria%20de%20um%20orçamento"
+        ><img src="img\whatsapp.png" class="whats" id="img-whats"
+      /></a>
+    </div>
+    <div class="insta">
+      <a href="https://www.instagram.com/brilhocarpolimentos_/"
+        ><img src="img\instagram.png" class="insta" id="img-insta"
+      /></a>
+    </div>
+    <!-- FINAL BOTÕES FLUTUANTES -->
+    <!-- INCLUSÃO jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- INCLUSÃO JavaScript -->
     <script src="js\index.js"></script>
   </body>
 </html>
