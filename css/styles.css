@@ -56,7 +56,7 @@ body{
   border-bottom: 2px solid orange;
 }
 /* FIM ESTILOS NAVBAR */
-
+/* ESTILOS BOTÃO MENU TELEFONE*/
 .bnt-navbar-tell{
   width: 60vw;
   height: 100vh;
@@ -96,6 +96,7 @@ body{
   border: 1px solid red;
   text-align: center;
 }
+/* ESTILOS BOTÃO MENU TELEFONE*/
 /* ESTILO HOME*/
 .home{
   width: 100vw;
