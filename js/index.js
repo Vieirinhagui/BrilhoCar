@@ -25,7 +25,7 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
     windowwidth= $(document).width();
-    if (windowwidth<=420 && windowwidth>=381){
+    if (windowwidth>=381 && windowwidth<=420){
         console.log(windowwidth);
         $(".bnt-navbar").css("display","none");
         $(".bnt-menu").css("display","flex");
